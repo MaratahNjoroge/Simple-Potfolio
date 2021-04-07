@@ -1,0 +1,219 @@
+body {
+	padding: 0;
+	margin: 0;
+	
+}
+
+/* navbar */
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #333;
+	overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .logo {
+	  float: right;
+  }
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+/*--- header ---*/
+
+.header {
+	background-image: url(/header-illustation-home.svg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.first {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.first h1 {
+	color: #ffffff;
+}
+
+.first p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.paddsection {
+	padding-top: 90px;
+	padding-bottom: 90px;
+  }
+  
+
+  #contact {
+	height: auto;
+	width: 100%;
+	background-color :rgba(0,0,0,0.1);
+  }
+  
+  .contact-details {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .contact-details li {
+	padding-bottom: 10px;
+  }
+  
+  #contact input, #contact textarea {
+	width: 100%;
+  }
+  
+  
+  #contact  #sendmessage {
+	color: #18d26e;
+	border: 1px solid #18d26e;
+	display: none;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+	margin: 15px;
+  }
+  
+  #contact  #errormessage {
+	color: red;
+	display: none;
+	border: 1px solid red;
+	text-align: center;
+	padding: 15px;
+	font-weight: 600;
+	margin: 15px;
+  }
+  
+  #contact #sendmessage.show, #contact #errormessage.show, #contact .show {
+	display: block;
+  }
+  
+  #contact .validation {
+	color: red;
+	display: none;
+	margin: 0 0 20px;
+	font-weight: 400;
+	font-size: 13px;
+  }
+  
+ 
+/*-----------------------------------------------------------------------------------*/
+/*  Footer
+/*-----------------------------------------------------------------------------------*/
+
+#footer {
+	background: #f7f7f7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+  }
+  
+  #footer .socials-media {
+	width: 100%;
+  }
+  
+  #footer .socials-media ul {
+	display: inline-block;
+	float: none;
+	margin: 0 0 20px 0;
+  }
+  
+  #footer .socials-media ul li {
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+  }
+  
+  #footer .socials-media ul li a {
+	font-size: 24px;
+	color: #999;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	background: transparent;
+	text-transform: uppercase;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-ms-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #footer .socials-media ul li a:hover {
+	color: #b8a07e;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-ms-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+  }
+  
+  #footer p {
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	margin-top: 0;
+	text-transform: uppercase;
+  }
+   
+
+
+
+
+/*--- media queries ---*/
+
+@media (max-width: 575.98px) {
+
+	.first {
+		left: 0;
+		padding: 0 15px;
+		position: absolute;
+		top: 10%;
+		transform: none;
+		text-align: center;
+	}
+	
+	.first h1 {
+		font-size: 2em;
+	}
+	
+	.first p {
+		font-size: 1rem;
+	}
+	
+}
